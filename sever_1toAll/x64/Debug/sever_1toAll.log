@@ -1,0 +1,7 @@
+﻿D:\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(510,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(sever_1toAll.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  server_1toAll.cpp
+E:\repos\Socket\sever_1toAll\server_1toAll.cpp(53,68): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\repos\Socket\sever_1toAll\server_1toAll.cpp(37,17): warning C4101: “server”: 未引用的局部变量
+E:\repos\Socket\sever_1toAll\server_1toAll.cpp(36,18): warning C4101: “iSendResult”: 未引用的局部变量
+E:\repos\Socket\sever_1toAll\server_1toAll.cpp(86,32): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  sever_1toAll.vcxproj -> E:\repos\Socket\x64\Debug\server_1toAll.exe

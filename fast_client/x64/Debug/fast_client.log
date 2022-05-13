@@ -1,0 +1,3 @@
+﻿  client.cpp
+E:\repos\Socket\fast_client\client.cpp(46,43): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+  fast_client.vcxproj -> E:\repos\Socket\x64\Debug\fast_client.exe

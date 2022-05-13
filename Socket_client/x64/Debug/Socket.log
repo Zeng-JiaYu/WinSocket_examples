@@ -1,0 +1,10 @@
+﻿D:\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(510,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(Socket_client.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  client.cpp
+E:\repos\Socket\Socket_client\client.cpp(33,9): warning C4101: “iResult”: 未引用的局部变量
+E:\repos\Socket\Socket_client\client.cpp(59,70): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\repos\Socket\Socket_client\client.cpp(64,66): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+E:\repos\Socket\Socket_client\client.cpp(52,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\repos\Socket\Socket_client\client.cpp(45,9): warning C4101: “iResult”: 未引用的局部变量
+E:\repos\Socket\Socket_client\client.cpp(112,32): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+E:\repos\Socket\Socket_client\client.cpp(128,32): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  Socket.vcxproj -> E:\repos\Socket\x64\Debug\client.exe
